@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540A1191160DF5200046EE00 /* TTT_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 540A118F160DF5200046EE00 /* TTT_ViewController.xib */; };
+		540A119D160DF5740046EE00 /* TTT_WantsToBeRazorSharpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1193160DF5740046EE00 /* TTT_WantsToBeRazorSharpView.m */; };
+		540A11F3160E02890046EE00 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540A11F2160E02890046EE00 /* QuartzCore.framework */; };
+		540A11F5160E02B10046EE00 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540A11F4160E02B10046EE00 /* CoreText.framework */; };
+		540A11F6160E02B60046EE00 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540A11F0160E027A0046EE00 /* MessageUI.framework */; };
+		54AFC94A160DF4D200D3EB07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AFC949160DF4D200D3EB07 /* UIKit.framework */; };
+		54AFC94C160DF4D200D3EB07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AFC94B160DF4D200D3EB07 /* Foundation.framework */; };
+		54AFC94E160DF4D200D3EB07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AFC94D160DF4D200D3EB07 /* CoreGraphics.framework */; };
+		54AFC956160DF4D200D3EB07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFC955160DF4D200D3EB07 /* main.m */; };
+		54AFC95A160DF4D200D3EB07 /* TTT_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFC959160DF4D200D3EB07 /* TTT_AppDelegate.m */; };
+		54AFC95C160DF4D200D3EB07 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AFC95B160DF4D200D3EB07 /* Default.png */; };
+		54AFC95E160DF4D200D3EB07 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AFC95D160DF4D200D3EB07 /* Default@2x.png */; };
+		54AFC960160DF4D300D3EB07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AFC95F160DF4D300D3EB07 /* Default-568h@2x.png */; };
+		54AFC963160DF4D300D3EB07 /* TTT_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFC962160DF4D300D3EB07 /* TTT_ViewController.m */; };
+		54EDEE5116105D060041DB7B /* TTT_PDFGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EDEE5016105D060041DB7B /* TTT_PDFGenerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		540A118F160DF5200046EE00 /* TTT_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTT_ViewController.xib; sourceTree = "<group>"; };
+		540A1192160DF5740046EE00 /* TTT_WantsToBeRazorSharpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTT_WantsToBeRazorSharpView.h; sourceTree = "<group>"; };
+		540A1193160DF5740046EE00 /* TTT_WantsToBeRazorSharpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTT_WantsToBeRazorSharpView.m; sourceTree = "<group>"; };
+		540A11F0160E027A0046EE00 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		540A11F2160E02890046EE00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		540A11F4160E02B10046EE00 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		54AFC945160DF4D200D3EB07 /* PDF UIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF UIView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AFC949160DF4D200D3EB07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54AFC94B160DF4D200D3EB07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54AFC94D160DF4D200D3EB07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54AFC951160DF4D200D3EB07 /* GeneratePDFfromUIViewButDontWantToLooseQuality-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeneratePDFfromUIViewButDontWantToLooseQuality-Info.plist"; sourceTree = "<group>"; };
+		54AFC955160DF4D200D3EB07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54AFC957160DF4D200D3EB07 /* GeneratePDFfromUIViewButDontWantToLooseQuality-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeneratePDFfromUIViewButDontWantToLooseQuality-Prefix.pch"; sourceTree = "<group>"; };
+		54AFC958160DF4D200D3EB07 /* TTT_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTT_AppDelegate.h; sourceTree = "<group>"; };
+		54AFC959160DF4D200D3EB07 /* TTT_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTT_AppDelegate.m; sourceTree = "<group>"; };
+		54AFC95B160DF4D200D3EB07 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		54AFC95D160DF4D200D3EB07 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		54AFC95F160DF4D300D3EB07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		54AFC961160DF4D300D3EB07 /* TTT_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTT_ViewController.h; sourceTree = "<group>"; };
+		54AFC962160DF4D300D3EB07 /* TTT_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTT_ViewController.m; sourceTree = "<group>"; };
+		54EDEE4F16105D050041DB7B /* TTT_PDFGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTT_PDFGenerator.h; sourceTree = "<group>"; };
+		54EDEE5016105D060041DB7B /* TTT_PDFGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTT_PDFGenerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54AFC942160DF4D200D3EB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540A11F6160E02B60046EE00 /* MessageUI.framework in Frameworks */,
+				540A11F5160E02B10046EE00 /* CoreText.framework in Frameworks */,
+				540A11F3160E02890046EE00 /* QuartzCore.framework in Frameworks */,
+				54AFC94E160DF4D200D3EB07 /* CoreGraphics.framework in Frameworks */,
+				54AFC94A160DF4D200D3EB07 /* UIKit.framework in Frameworks */,
+				54AFC94C160DF4D200D3EB07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54AFC93A160DF4D200D3EB07 = {
+			isa = PBXGroup;
+			children = (
+				54AFC94F160DF4D200D3EB07 /* GeneratePDFfromUIViewButDontWantToLooseQuality */,
+				54AFC948160DF4D200D3EB07 /* Frameworks */,
+				54AFC946160DF4D200D3EB07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54AFC946160DF4D200D3EB07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54AFC945160DF4D200D3EB07 /* PDF UIView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54AFC948160DF4D200D3EB07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				540A11F4160E02B10046EE00 /* CoreText.framework */,
+				540A11F2160E02890046EE00 /* QuartzCore.framework */,
+				540A11F0160E027A0046EE00 /* MessageUI.framework */,
+				54AFC949160DF4D200D3EB07 /* UIKit.framework */,
+				54AFC94B160DF4D200D3EB07 /* Foundation.framework */,
+				54AFC94D160DF4D200D3EB07 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54AFC94F160DF4D200D3EB07 /* GeneratePDFfromUIViewButDontWantToLooseQuality */ = {
+			isa = PBXGroup;
+			children = (
+				54EDEE4F16105D050041DB7B /* TTT_PDFGenerator.h */,
+				54EDEE5016105D060041DB7B /* TTT_PDFGenerator.m */,
+				54AFC958160DF4D200D3EB07 /* TTT_AppDelegate.h */,
+				54AFC959160DF4D200D3EB07 /* TTT_AppDelegate.m */,
+				54AFC961160DF4D300D3EB07 /* TTT_ViewController.h */,
+				54AFC962160DF4D300D3EB07 /* TTT_ViewController.m */,
+				540A118F160DF5200046EE00 /* TTT_ViewController.xib */,
+				540A1192160DF5740046EE00 /* TTT_WantsToBeRazorSharpView.h */,
+				540A1193160DF5740046EE00 /* TTT_WantsToBeRazorSharpView.m */,
+				54AFC950160DF4D200D3EB07 /* Supporting Files */,
+			);
+			name = GeneratePDFfromUIViewButDontWantToLooseQuality;
+			path = WindScoutDiagramPlayGround;
+			sourceTree = "<group>";
+		};
+		54AFC950160DF4D200D3EB07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54AFC951160DF4D200D3EB07 /* GeneratePDFfromUIViewButDontWantToLooseQuality-Info.plist */,
+				54AFC955160DF4D200D3EB07 /* main.m */,
+				54AFC957160DF4D200D3EB07 /* GeneratePDFfromUIViewButDontWantToLooseQuality-Prefix.pch */,
+				54AFC95B160DF4D200D3EB07 /* Default.png */,
+				54AFC95D160DF4D200D3EB07 /* Default@2x.png */,
+				54AFC95F160DF4D300D3EB07 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54AFC944160DF4D200D3EB07 /* GeneratePDFfromUIViewButDontWantToLooseQuality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AFC969160DF4D300D3EB07 /* Build configuration list for PBXNativeTarget "GeneratePDFfromUIViewButDontWantToLooseQuality" */;
+			buildPhases = (
+				54AFC941160DF4D200D3EB07 /* Sources */,
+				54AFC942160DF4D200D3EB07 /* Frameworks */,
+				54AFC943160DF4D200D3EB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeneratePDFfromUIViewButDontWantToLooseQuality;
+			productName = WindScoutDiagramPlayGround;
+			productReference = 54AFC945160DF4D200D3EB07 /* PDF UIView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54AFC93C160DF4D200D3EB07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTT_;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = timtomtam;
+			};
+			buildConfigurationList = 54AFC93F160DF4D200D3EB07 /* Build configuration list for PBXProject "GeneratePDFfromUIViewButDontWantToLooseQuality" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54AFC93A160DF4D200D3EB07;
+			productRefGroup = 54AFC946160DF4D200D3EB07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54AFC944160DF4D200D3EB07 /* GeneratePDFfromUIViewButDontWantToLooseQuality */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54AFC943160DF4D200D3EB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AFC95C160DF4D200D3EB07 /* Default.png in Resources */,
+				54AFC95E160DF4D200D3EB07 /* Default@2x.png in Resources */,
+				54AFC960160DF4D300D3EB07 /* Default-568h@2x.png in Resources */,
+				540A1191160DF5200046EE00 /* TTT_ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54AFC941160DF4D200D3EB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AFC956160DF4D200D3EB07 /* main.m in Sources */,
+				54AFC95A160DF4D200D3EB07 /* TTT_AppDelegate.m in Sources */,
+				54AFC963160DF4D300D3EB07 /* TTT_ViewController.m in Sources */,
+				540A119D160DF5740046EE00 /* TTT_WantsToBeRazorSharpView.m in Sources */,
+				54EDEE5116105D060041DB7B /* TTT_PDFGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54AFC967160DF4D300D3EB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		54AFC968160DF4D300D3EB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54AFC96A160DF4D300D3EB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WindScoutDiagramPlayGround/GeneratePDFfromUIViewButDontWantToLooseQuality-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					TTTV_ADHOC,
+					"TTTDEBUGLEVEL=2",
+					CONFIGURATION_AdHoc_Distribution,
+				);
+				INFOPLIST_FILE = "WindScoutDiagramPlayGround/GeneratePDFfromUIViewButDontWantToLooseQuality-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "PDF UIView";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54AFC96B160DF4D300D3EB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WindScoutDiagramPlayGround/GeneratePDFfromUIViewButDontWantToLooseQuality-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					TTTV_ADHOC,
+					"TTTDEBUGLEVEL=2",
+					CONFIGURATION_AdHoc_Distribution,
+				);
+				INFOPLIST_FILE = "WindScoutDiagramPlayGround/GeneratePDFfromUIViewButDontWantToLooseQuality-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "PDF UIView";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54AFC93F160DF4D200D3EB07 /* Build configuration list for PBXProject "GeneratePDFfromUIViewButDontWantToLooseQuality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AFC967160DF4D300D3EB07 /* Debug */,
+				54AFC968160DF4D300D3EB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AFC969160DF4D300D3EB07 /* Build configuration list for PBXNativeTarget "GeneratePDFfromUIViewButDontWantToLooseQuality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AFC96A160DF4D300D3EB07 /* Debug */,
+				54AFC96B160DF4D300D3EB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54AFC93C160DF4D200D3EB07 /* Project object */;
+}
