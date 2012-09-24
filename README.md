@@ -33,7 +33,7 @@ And don't know why, see here:
 ![blurry pdf](https://raw.github.com/florianbachmann/GeneratePDFfromUIViewButDontWantToLooseQuality/master/GeneratePDFfromUIViewButDontWantToLooseQuality_02.png)
 
 and the PDF file itself Test.pdf
-![See this pdf](https://raw.github.com/florianbachmann/GeneratePDFfromUIViewButDontWantToLooseQuality/master/Test.pdf)
+https://raw.github.com/florianbachmann/GeneratePDFfromUIViewButDontWantToLooseQuality/master/Test.pdf
 
 and the lines to render:
 ```
