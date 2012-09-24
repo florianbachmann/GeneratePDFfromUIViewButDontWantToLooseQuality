@@ -26,13 +26,14 @@ TTT_WantsToBeRazorSharpView *customViewSharp = [[TTT_WantsToBeRazorSharpView all
 the first code drawn view is razorsharp, while the second isn't, but that is ok, because of rect's comma values (361.5, 251.5, 301.5, 80.5).
 
 The this picture:
-![The this picture](GeneratePDFfromUIViewButDontWantToLooseQuality_01.png)
+![See this picture](https://raw.github.com/florianbachmann/GeneratePDFfromUIViewButDontWantToLooseQuality/master/GeneratePDFfromUIViewButDontWantToLooseQuality_01.png)
 
 But my problem is now, if I render the view into an pdf document it is blurry!
 And don't know why, see here:
-![blurry pdf](GeneratePDFfromUIViewButDontWantToLooseQuality_02.png)
+![blurry pdf](https://raw.github.com/florianbachmann/GeneratePDFfromUIViewButDontWantToLooseQuality/master/GeneratePDFfromUIViewButDontWantToLooseQuality_02.png)
 
 and the PDF file itself Test.pdf
+![See this pdf](https://raw.github.com/florianbachmann/GeneratePDFfromUIViewButDontWantToLooseQuality/master/Test.pdf)
 
 and the lines to render:
 ```
